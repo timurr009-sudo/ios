@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Safar</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      font-family: -apple-system, system-ui, sans-serif; background: #dcefe4; color: #0f3b2e;
+      padding: env(safe-area-inset-top) 24px env(safe-area-inset-bottom); box-sizing: border-box; text-align: center;
+    }
+    main { max-width: 320px; }
+    h1 { font-size: 22px; margin: 0 0 8px; }
+    p { font-size: 15px; line-height: 1.5; margin: 0 0 24px; opacity: .8; }
+    button {
+      appearance: none; border: 0; border-radius: 12px; padding: 14px 28px; font-size: 16px; font-weight: 600;
+      background: #0f5a43; color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Нет подключения</h1>
+    <p>Safar не может загрузиться. Проверьте подключение к интернету и попробуйте снова.</p>
+    <button type="button" onclick="location.href='https://200-96-110-14.sslip.io'">Повторить</button>
+  </main>
+</body>
+</html>

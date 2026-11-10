@@ -1,0 +1,28 @@
+{
+  "appId": "com.safar.app",
+  "appName": "Safar",
+  "webDir": "www",
+  "server": {
+    "url": "https://200-96-110-14.sslip.io",
+    "errorPath": "index.html",
+    "allowNavigation": [
+      "200-96-110-14.sslip.io"
+    ]
+  },
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#dcefe4",
+    "limitsNavigationsToAppBoundDomains": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "backgroundColor": "#151515",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "DEFAULT"
+    }
+  }
+}
